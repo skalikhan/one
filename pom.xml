@@ -31,19 +31,7 @@
             <email>arun.gupta@gmail.com</email>
         </developer>
     </developers>
-    <distributionManagement>
-        <repository>
-            <id>nexus</id>
-            <name>Internal Releases</name>
-            <url>http://3.143.225.135:8081/repository/maven-releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>nexus</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://3.143.225.135:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
-    <build>
+        <build>
     	<finalName>myproj</finalName>
         <pluginManagement>
             <plugins>
