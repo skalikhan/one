@@ -37,12 +37,11 @@
             <plugins>
 <plugin>
 	<groupId>org.apache.tomcat.maven</groupId>
-	<artifactId>tomcat7-maven-plugin</artifactId>
+	<artifactId>tomcat10-maven-plugin</artifactId>
 	<version>2.2</version>
 	<configuration>
-		<url>http://localhost:8080/manager/text</url>
-		<server>appserver</server>
-		<path>/myproj</path>
+		<url>http://http://16.171.15.130:9080/</url>
+		
 	</configuration>
 </plugin>
                 <plugin>
